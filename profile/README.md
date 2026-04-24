@@ -48,4 +48,23 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 
 <img width="1617" height="1155" alt="diagram-export-4-24-2026-7_49_36-PM" src="https://github.com/user-attachments/assets/4951e474-149c-4a36-96a0-2bd78a9ba837" />
 
+## Détails
 
+* Public Subnet
+
+|Critère|Valeur|Détail|
+|:--|:--|:--|
+|VPC - IP RANGE|10.0.0.0/16||
+|RPROXY SRV - FQDN|<your-app.cld.education||
+|IP RANGE|10.0.0.0/28||
+
+* Private Subnet
+
+|Critère|Valeur|Détail|
+|:--|:--|:--|
+|IP RANGE|10.0.X.0/28|X = ops team number|
+|MON SRV LIN - IP|10.0.X.10||
+|MON CLI LIN - IP|10.0.X.11||
+|MON CLI WIN - IP|10.0.X.12||
+|MON CLI DCOKER ENGINE - IP|10.0.X.13||
+|TICKETING SRV - IP|10.0.X.14||
