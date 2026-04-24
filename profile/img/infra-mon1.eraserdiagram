@@ -14,11 +14,10 @@ CLOUD-PROVIDER {
   REGION{
     VPC [icon: aws-vpc] {
       IGW [icon: aws-internet-gateway]
-      DMZ {
-        SSH-SRV [icon: debian]
-        NAT-SRV [icon: aws-nat-gateway]
-      }
       BASTILLON {
+        SSH-SRV [icon: debian]
+      }
+      DMZ {
         RPROXY-SRV [icon: nginx]
       }
       PRIVATE-SUBNET-VM {
@@ -41,20 +40,20 @@ SYS-ADMIN > CLOUD : "22 : SSH"
 ENDUSER > CLOUD : "443 : HTTPS"
 
 CLOUD - TICKETING-SYSTEM : "443 : HTTPS"
-CLOUD - SOCIAL-NETWORK
+CLOUD - SOCIAL-NETWORK : "443 : HTTPS"
 
-CLOUD > IGW : "22 : SSH      443 : HTTPS"
+CLOUD > IGW : "22 : SSH \n 443 : HTTPS"
 
 IGW > SSH-SRV : "22 : SSH"
 IGW > RPROXY-SRV : "443 : HTTPS"
 
-SSH-SRV > PRIVATE-SUBNET-VM : "3389 : RDP - 22 : SSH"
+SSH-SRV > PRIVATE-SUBNET-VM : "3389 : RDP \n- 22 : SSH"
 RPROXY-SRV > MON-SRV-LIN : "8080 : HTTP"
 RPROXY-SRV > API-GATEWAY : "8080 : HTTP"
 
 // PRIVATE SUBNET
-MON-SRV-LIN - MON-CLI-LIN : "3389 : RDP"
-MON-SRV-LIN - MON-CLI-WIN : "22 : SSH"
+MON-SRV-LIN - MON-CLI-LIN : "22 : SSH"
+MON-SRV-LIN - MON-CLI-WIN : "3389 : RDP"
 
 API-GATEWAY - CONT-1
 API-GATEWAY - CONT-2
