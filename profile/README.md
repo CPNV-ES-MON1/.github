@@ -46,8 +46,6 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 
 ## Schéma
 
-![Infra](./img/infra-mon1.png)
-
 <img width="1617" height="1155" alt="diagram-export-4-24-2026-7_49_36-PM" src="https://github.com/user-attachments/assets/4951e474-149c-4a36-96a0-2bd78a9ba837" />
 
 
