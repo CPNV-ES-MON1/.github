@@ -55,16 +55,16 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 |Critère|Valeur|Détail|
 |:--|:--|:--|
 |VPC - IP RANGE|10.0.0.0/16||
-|RPROXY SRV - FQDN|<your-app.cld.education||
+|RPROXY SRV - FQDN|<your-app>.cld.education||
 |IP RANGE|10.0.0.0/28||
 
-* Private Subnet
+* Private Subnet VM
 
 |Critère|Valeur|Détail|
 |:--|:--|:--|
 |IP RANGE|10.0.X.0/28|X = ops team number|
-|MON SRV LIN - IP|10.0.X.10||
-|MON CLI LIN - IP|10.0.X.11||
-|MON CLI WIN - IP|10.0.X.12||
-|MON CLI DCOKER ENGINE - IP|10.0.X.13||
-|TICKETING SRV - IP|10.0.X.14||
+|MON SRV LIN - IP|10.0.X.10/28||
+|MON CLI LIN - IP|10.0.X.11/28||
+|MON CLI WIN - IP|10.0.X.12/28||
+|MON CLI DCOKER ENGINE - IP|10.0.X.13/28||
+|TICKETING SRV - IP|10.0.X.14/28|OPTIONAL|
