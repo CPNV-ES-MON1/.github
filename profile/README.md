@@ -48,5 +48,6 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 
 ![Infra](./img/infra-mon1.png)
 
-<img width="783" height="649" alt="image" src="https://github.com/user-attachments/assets/0c068b51-18c5-416c-af1a-9250d2f3a0a8" />
+<img width="1617" height="1155" alt="diagram-export-4-24-2026-7_49_36-PM" src="https://github.com/user-attachments/assets/4951e474-149c-4a36-96a0-2bd78a9ba837" />
+
 
