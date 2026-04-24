@@ -43,3 +43,8 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 * Choix du système du serveur de supervision
 * Organisation de l’équipe
 * Méthodologie de travail (sprints, rituels)
+
+## Schéma
+
+![Infra](./img/infra-mon1.png)
+
