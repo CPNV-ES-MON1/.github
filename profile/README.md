@@ -13,7 +13,7 @@ La solution développée devra :
 * Fournir une vision globale et en temps réel de l’état de santé de l’infrastructure
 * Détecter automatiquement les comportements anormaux (charge, consommation, indisponibilité)
 * Déclencher des actions correctives en cas d’incident (redémarrage de services, ajustement de configuration)
-*Adapter la communication selon les publics :
+* Adapter la communication selon les publics :
   * technique (diagnostic et intervention)
   * non technique (information claire en cas d’incident)
  
