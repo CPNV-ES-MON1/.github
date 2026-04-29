@@ -17,6 +17,8 @@ La solution développée devra :
   * technique (diagnostic et intervention)
   * non technique (information claire en cas d’incident)
  
+[Vers le product backlog](https://github.com/orgs/CPNV-ES-MON1/projects/2/views/1)
+ 
 ## Contexte technique
 
 L’infrastructure à superviser présente les caractéristiques suivantes :
