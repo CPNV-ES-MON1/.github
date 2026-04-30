@@ -65,8 +65,8 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 |Critère|Valeur|Détail|
 |:--|:--|:--|
 |SUBNET IP RANGE|10.0.X.0/28|X = ops team number|
-|MON SRV LIN - IP|10.0.X.10/28||
-|MON CLI LIN - IP|10.0.X.11/28||
-|MON CLI WIN - IP|10.0.X.12/28||
-|MON CLI DOCKER ENGINE - IP|10.0.X.13/28||
+|MON SRV LIN - IP|10.0.X.10/28|DISTRIBUTION LINUX DE VOTRE CHOIX|
+|MON CLI LIN - IP|10.0.X.11/28|MS W2K25 Base|
+|MON CLI WIN - IP|10.0.X.12/28|DEBIAN 13|
+|MON CLI DOCKER ENGINE - IP|10.0.X.13/28|DEBIAN 13|
 |TICKETING SRV - IP|10.0.X.14/28|OPTIONAL|
