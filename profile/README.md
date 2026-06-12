@@ -57,7 +57,7 @@ Le projet s’inscrit dans un cadre partiellement contraint :
 |Critère|Valeur|Détail|
 |:--|:--|:--|
 |VPC - IP RANGE|10.0.0.0/16||
-|RPROXY SRV - FQDN|your-app.cld.education||
+|RPROXY SRV - FQDN|staging.<yoursolution>.mon1.cld.education||
 |SUBNET IP RANGE|10.0.0.0/28||
 
 * Private Subnet VM
